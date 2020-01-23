@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<!--
+/**
+ * @copyright Copyright © 2020 GENTo. All rights reserved.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Gento_Core::general" title="GENTo" translate="title" module="Gento_Core" sortOrder="20" dependsOnModule="Gento_Core" resource="Gento_Core::general" />
+    </menu>
+</config>

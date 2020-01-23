@@ -1,0 +1,22 @@
+{
+    "name": "gento-arg/module-core",
+    "description": "GENTo Core",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0"
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Gento\\Core\\": ""
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

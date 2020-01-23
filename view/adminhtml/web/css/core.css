@@ -1,0 +1,14 @@
+#menu-gento-core-general>a:before {
+    content: '';
+    background: url(img/gento-logo.png) no-repeat center center;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    background-size: 41px 21px;
+}
+
+#menu-gento-core-general._active>a:before, #menu-gento-core-general:hover>a:before {
+    content: '';
+    background: url(img/gento-logo.png) no-repeat center center;
+    background-size: 41px 21px;
+    filter: grayscale(0%);
+}
