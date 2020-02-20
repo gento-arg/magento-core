@@ -1,0 +1,25 @@
+@gento-core__logo-path: '@{baseDir}Gento_Core/img/gento-logo.svg';
+@gento-core__color    : #1762c7;
+
+#menu-gento-core-general>a:before {
+    content              : '';
+    background-color     : @color-gray65-lighten;
+    -webkit-mask-image   : url(@gento-core__logo-path);
+    mask-image           : url(@gento-core__logo-path);
+    -webkit-mask-repeat  : no-repeat;
+    mask-repeat          : no-repeat;
+    -webkit-mask-position: center center;
+    mask-position        : center center;
+}
+
+#menu-gento-core-general._active>a:before,
+#menu-gento-core-general:hover>a:before {
+    content              : '';
+    background-color     : @gento-core__color;
+    -webkit-mask-image   : url(@gento-core__logo-path);
+    mask-image           : url(@gento-core__logo-path);
+    -webkit-mask-repeat  : no-repeat;
+    mask-repeat          : no-repeat;
+    -webkit-mask-position: center center;
+    mask-position        : center center;
+}
